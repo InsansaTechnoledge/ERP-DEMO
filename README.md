@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# ERP Demo 
 
-## Project info
+A modern, responsive ERP demo project built with **React**, **TypeScript**, **Tailwind CSS**, **shadcn/ui**, and powered by **Vite**.
 
-**URL**: https://lovable.dev/projects/f06be65b-6a72-40eb-a50d-0f1d3d039b8a
+## Project Setup
 
-## How can I edit this code?
+### Prerequisites
 
-There are several ways of editing your application.
+Make sure you have the following installed:
 
-**Use Lovable**
+* [Node.js](https://nodejs.org/)
+* [npm](https://www.npmjs.com/) (comes with Node.js)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f06be65b-6a72-40eb-a50d-0f1d3d039b8a) and start prompting.
+### Installation Steps
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Clone the repository
+git clone <YOUR_GIT_REPO_URL>
 
-**Use your preferred IDE**
+# Navigate into the project directory
+cd <PROJECT_NAME>
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Install dependencies
+npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will run at [http://localhost:5173](http://localhost:5173) (default Vite port).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+##  Tech Stack
 
-**Use GitHub Codespaces**
+* **React** – Component-based UI
+* **TypeScript** – Strongly typed JavaScript
+* **Vite** – Fast development build tool
+* **Tailwind CSS** – Utility-first CSS framework
+* **shadcn/ui** – Accessible and beautiful UI components
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Features
 
-## What technologies are used for this project?
+* Modular design with reusable components
+* Beautiful and responsive UI
+* Optimized for speed and scalability
+* Modern folder structure with clean code
 
-This project is built with:
+##  Folder Structure (Simplified)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+src/
+├── components/     # Reusable UI components
+├── pages/          # Main views/pages
+├── routes/         # Routing configuration
+├── lib/            # Helper functions and utilities
+├── assets/         # Static files like images
+├── App.tsx         # Main App component
+└── main.tsx        # Entry point
+```
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f06be65b-6a72-40eb-a50d-0f1d3d039b8a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
